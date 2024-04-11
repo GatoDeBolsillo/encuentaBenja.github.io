@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta: La Mamá del Benja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <h1>Encuesta: Benja chupalo</h1>
+        <form id="encuestaForm">
+            <label for="opcionSi"><input type="radio" name="respuesta" id="opcionSi" value="Si"> Sí</label>
+            <label for="opcionNo"><input type="radio" name="respuesta" id="opcionNo" value="No"> No</label>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="resultados">
+            <h2>Resultados:</h2>
+            <div id="contadorSi">Votos por Sí: <span id="votosSi">0</span></div>
+            <div id="contadorNo">Votos por No: <span id="votosNo">0</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
